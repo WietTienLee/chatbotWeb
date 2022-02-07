@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "chào",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Xin chào",
+        "Chào bạn"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi",
+        "Hey",
+        "Xin chào",
+        "Chào bạn"
+      ]
+    },
+    {
+      "tag": "tạm biệt",
+      "patterns": ["Bye", "tạm biệt", "Goodbye"],
+      "responses": [
+        "Chúc bạn vui vẻ",
+        "Tạm biệt."
+      ]
+    },
+    {
+      "tag": "cảm ơn",
+      "patterns": ["Thanks", "Thank you","Cảm ơn"],
+      "responses": ["Không có gì!", "chúc bạn vui vẻ"]
+    },
+    {
+      "tag":"STUDENTCONDUCT",
+      "patterns":[
+        "How many objectives and principles in the student code of conduct",
+        "Tell me about objectives and principles",
+        "objectives and principles",
+        "code of conduct"
+      ],
+      "responses":[
+        "The Student Code of Conduct aims at creating a fair, \n \n civilized and effective learning and research environment.\n Each student is respected and has the right to freedom of opinion and expression under the law,\n the rights and legitimate interests of the University and other individuals"
+      ]
+    },
+    {
+      "tag":"Vi Phạm và Hình Thức Xử Lý",
+      "patterns":[
+        "Vô lễ, xúc phạm nhân phẩm, danh dự, \n xâm phạm thân thể thày/cô giáo, CBVC của Nhà trường"
+      ],
+      "responses":[
+        "Tùy theo mức độ, xử lý từ khiển trách đến buộc thôi học"
+      ]
+    },
+    
+    {
+      "tag":"Vi Phạm và Hình Thức Xử Lý 1",
+      "patterns":[
+        "không chào hỏi người lớn trong Trường"
+      ],
+      "responses":[
+        "Lần (1) - Nghiêm khắc phê bình\n Lần (2) - Nghiêm khắc phê bình\n Lần (3) - Nghiêm khắc phê bình\n Lần (2) - Nghiêm khắc phê bình\n" 
+      ]
+    },
+    {
+      "tag":"Vi Phạm và Hình Thức Xử Lý 2",
+      "patterns":[
+        "Vô lễ, xúc phạm nhân phẩm, danh dự, xâm phạm thân thể thày/cô giáo, CBVC của Nhà trường"
+      ],
+      "responses":[
+        "Tùy theo mức độ, xử lý từ khiển trách đến buộc thôi học"
+      ]
+    }
+
+  ]
+}
